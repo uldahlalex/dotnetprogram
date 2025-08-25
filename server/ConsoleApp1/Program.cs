@@ -1,9 +1,11 @@
-﻿namespace ConsoleApp1;
+﻿using MyEntities;
 
-class Program
+Console.WriteLine();
+
+public class MyServiceClass
 {
-    static void Main(string[] args)
+    public void A()
     {
-        Console.WriteLine("Hello, World!");
+        new Pet();
     }
 }
